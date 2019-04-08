@@ -28,10 +28,10 @@ if __name__=='__main__':
         print "This script only can run by dbMon or root user"
         sys.exit(1)
 
-    LOCAL_DB_USER = 'admin'
+    LOCAL_DB_USER = 'xxxx'
     LOCAL_DB_PASSWD = 'xxxxx'
-    LOCAL_DB_HOST = '127.0.0.1'
-    LOCAL_DB = 'slowlog'
+    LOCAL_DB_HOST = 'xxxxx'
+    LOCAL_DB = 'xxxxx'
 
     QUERY_REVIEW = 'get_long_query'
     QUERY_REVIEW_HISTORY = 'get_long_query_history'
